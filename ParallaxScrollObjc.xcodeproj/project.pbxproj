@@ -13,6 +13,7 @@
 		450E926D1E4C4AC800C54510 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 450E926B1E4C4AC800C54510 /* Main.storyboard */; };
 		450E926F1E4C4AC800C54510 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 450E926E1E4C4AC800C54510 /* Assets.xcassets */; };
 		450E92721E4C4AC800C54510 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 450E92701E4C4AC800C54510 /* LaunchScreen.storyboard */; };
+		450E927B1E4C4B3400C54510 /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 450E927A1E4C4B3400C54510 /* HeaderView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		450E926E1E4C4AC800C54510 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		450E92711E4C4AC800C54510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		450E92731E4C4AC800C54510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		450E92791E4C4B3400C54510 /* HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		450E927A1E4C4B3400C54510 /* HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				450E92701E4C4AC800C54510 /* LaunchScreen.storyboard */,
 				450E92731E4C4AC800C54510 /* Info.plist */,
 				450E92621E4C4AC800C54510 /* Supporting Files */,
+				450E92791E4C4B3400C54510 /* HeaderView.h */,
+				450E927A1E4C4B3400C54510 /* HeaderView.m */,
 			);
 			path = ParallaxScrollObjc;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 				450E926A1E4C4AC800C54510 /* ViewController.m in Sources */,
 				450E92671E4C4AC800C54510 /* AppDelegate.m in Sources */,
 				450E92641E4C4AC800C54510 /* main.m in Sources */,
+				450E927B1E4C4B3400C54510 /* HeaderView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
